@@ -1,0 +1,28 @@
+#be5invis\.vscode-custom-css {
+  display: none;
+}
+
+.titlebar-container {
+  .window-appicon,
+  .update-indicator {
+    display: none;
+  }
+
+  .monaco-toolbar .monaco-action-bar {
+    .action-item:has(.codicon-settings-view-bar-icon, .monaco-dropdown) {
+      display: none !important;
+    }
+
+    .actions-container {
+      margin-inline-end: 16px;
+    }
+  }
+}
+
+.sidebar .composite.header .composite-bar-container .composite-bar .monaco-action-bar .actions-container .action-item .action-label {
+  font-size: 18px;
+}
+
+.sidebar .composite.header .composite-bar-container .composite-bar .monaco-action-bar .actions-container .action-item {
+  margin-inline-start: 10px;
+}
