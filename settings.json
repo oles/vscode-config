@@ -9,5 +9,6 @@
     "terminal.integrated.altClickMovesCursor": false,
     "window.customMenuBarAltFocus": false,
     "window.enableMenuBarMnemonics": false,
-    "terminal.integrated.allowMnemonics": true
+    "terminal.integrated.allowMnemonics": true,
+    "workbench.colorTheme": "Dark Modern"
 }
