@@ -3,6 +3,8 @@
     "workbench.startupEditor": "none",
     "workbench.activityBar.location": "top",
     "workbench.editor.empty.hint": "hidden",
+    "window.menuBarVisibility": "hidden",
+    "window.commandCenter": false,
     "window.customMenuBarAltFocus": false,
     "window.enableMenuBarMnemonics": false
 }
