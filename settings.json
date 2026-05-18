@@ -1,4 +1,5 @@
 {
+    "vscode_custom_css.imports": ["file://${userHome}/.config/Code/User/custom.css"],
     "workbench.startupEditor": "none",
     "workbench.activityBar.location": "top",
     "workbench.editor.empty.hint": "hidden",
