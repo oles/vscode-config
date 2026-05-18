@@ -6,6 +6,8 @@
     "window.menuBarVisibility": "hidden",
     "window.commandCenter": false,
     "claudeCode.preferredLocation": "sidebar",
+    "terminal.integrated.altClickMovesCursor": false,
     "window.customMenuBarAltFocus": false,
-    "window.enableMenuBarMnemonics": false
+    "window.enableMenuBarMnemonics": false,
+    "terminal.integrated.allowMnemonics": true
 }
