@@ -1,4 +1,7 @@
 {
     "workbench.startupEditor": "none",
-    "workbench.activityBar.location": "top"
+    "workbench.activityBar.location": "top",
+    "workbench.editor.empty.hint": "hidden",
+    "window.customMenuBarAltFocus": false,
+    "window.enableMenuBarMnemonics": false
 }
