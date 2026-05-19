@@ -18,5 +18,9 @@
     "terminal.integrated.commandsToSkipShell": [
         "workbench.action.createTerminalEditor"
     ],
-    "git.autofetch": true
+    "git.autofetch": true,
+    "claudeCode.spinnerVerbs": {
+        "mode": "replace",
+        "verbs": ["Working"]
+    }
 }
