@@ -17,5 +17,6 @@
     "terminal.integrated.shellIntegration.decorationsEnabled": "never",
     "terminal.integrated.commandsToSkipShell": [
         "workbench.action.createTerminalEditor"
-    ]
+    ],
+    "git.autofetch": true
 }
