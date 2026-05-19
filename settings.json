@@ -10,5 +10,6 @@
     "window.customMenuBarAltFocus": false,
     "window.enableMenuBarMnemonics": false,
     "terminal.integrated.allowMnemonics": true,
-    "workbench.colorTheme": "Dark Modern"
+    "workbench.colorTheme": "Dark Modern",
+    "editor.minimap.enabled": false
 }
