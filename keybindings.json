@@ -35,5 +35,14 @@
     {
         "key": "f1",
         "command": "-workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+u",
+        "command": "workbench.action.createTerminalEditor"
+    },
+    {
+        "key": "ctrl+u",
+        "command": "-cursorUndo",
+        "when": "textInputFocus"
     }
 ]
