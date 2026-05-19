@@ -25,5 +25,7 @@
         "verbs": ["Working"]
     },
     "editor.stickyScroll.enabled": false,
-    "editor.lightbulb.enabled": "off"
+    "editor.lightbulb.enabled": "off",
+    "editor.renderLineHighlight": "none",
+    "editor.matchBrackets": "near"
 }
