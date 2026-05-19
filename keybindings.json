@@ -60,5 +60,23 @@
     {
         "key": "ctrl+k ctrl+pageup",
         "command": "-workbench.action.previousEditorInGroup"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "workbench.action.focusSideBar"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "workbench.view.explorer",
+        "when": "sideBarFocus",
+    },
+    {
+        "key": "ctrl+0",
+        "command": "-workbench.action.focusSideBar"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-editor.action.toggleScreenReaderAccessibilityMode",
+        "when": "accessibilityHelpIsShown"
     }
 ]

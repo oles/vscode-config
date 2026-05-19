@@ -16,7 +16,8 @@
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.shellIntegration.decorationsEnabled": "never",
     "terminal.integrated.commandsToSkipShell": [
-        "workbench.action.createTerminalEditor"
+        "workbench.action.createTerminalEditor",
+        "workbench.action.focusSideBar"
     ],
     "git.autofetch": true,
     "claudeCode.spinnerVerbs": {
