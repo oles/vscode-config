@@ -23,5 +23,6 @@
     "claudeCode.spinnerVerbs": {
         "mode": "replace",
         "verbs": ["Working"]
-    }
+    },
+    "editor.stickyScroll.enabled": false
 }
