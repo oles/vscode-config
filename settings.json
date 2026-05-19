@@ -24,5 +24,6 @@
         "mode": "replace",
         "verbs": ["Working"]
     },
-    "editor.stickyScroll.enabled": false
+    "editor.stickyScroll.enabled": false,
+    "editor.lightbulb.enabled": "off"
 }
