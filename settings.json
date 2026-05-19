@@ -28,5 +28,6 @@
     "editor.lightbulb.enabled": "off",
     "editor.renderLineHighlight": "none",
     "editor.matchBrackets": "near",
-    "editor.occurrencesHighlight": "off"
+    "editor.occurrencesHighlight": "off",
+    "debug.javascript.codelens.npmScripts": "never"
 }
