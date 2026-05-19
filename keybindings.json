@@ -23,5 +23,17 @@
     {
         "key": "ctrl+e",
         "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+shift+p",
+        "command": "-workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "f1",
+        "command": "-workbench.action.showCommands"
     }
 ]
