@@ -11,5 +11,11 @@
     "window.enableMenuBarMnemonics": false,
     "terminal.integrated.allowMnemonics": true,
     "workbench.colorTheme": "Dark Modern",
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "terminal.integrated.initialHint": false,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+    "terminal.integrated.commandsToSkipShell": [
+        "workbench.action.createTerminalEditor"
+    ]
 }
