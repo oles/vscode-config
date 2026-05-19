@@ -27,5 +27,6 @@
     "editor.stickyScroll.enabled": false,
     "editor.lightbulb.enabled": "off",
     "editor.renderLineHighlight": "none",
-    "editor.matchBrackets": "near"
+    "editor.matchBrackets": "near",
+    "editor.occurrencesHighlight": "off"
 }
