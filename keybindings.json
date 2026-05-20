@@ -1,6 +1,11 @@
 // Place your key bindings in this file to override the defaults
 [
     {
+        "key": "escape",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "sideBarFocus",
+    },
+    {
         "key": "ctrl+up",
         "command": "cursorMove",
         "args": {
