@@ -1,11 +1,6 @@
 // Place your key bindings in this file to override the defaults
 [
     {
-        "key": "escape",
-        "command": "workbench.action.focusActiveEditorGroup",
-        "when": "sideBarFocus",
-    },
-    {
         "key": "ctrl+up",
         "command": "cursorMove",
         "args": {
@@ -101,22 +96,33 @@
         "command": "-workbench.action.previousEditorInGroup"
     },
     {
-        "key": "ctrl+e",
-        "command": "workbench.action.focusSideBar"
-    },
-    {
-        "key": "ctrl+e",
-        "command": "workbench.view.explorer",
+        "key": "escape",
+        "command": "workbench.action.focusActiveEditorGroup",
         "when": "sideBarFocus",
     },
     {
-        "key": "ctrl+0",
-        "command": "-workbench.action.focusSideBar"
+        "key": "alt+e",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "sideBarFocus",
+    },
+    {
+        "key": "alt+e",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "claude-vscode.sideBarActive && !editorFocus && !panelFocus",
+    },
+    {
+        "key": "alt+e",
+        "command": "workbench.action.focusSideBar",
+        "when": "editorFocus"
     },
     {
         "key": "ctrl+e",
         "command": "-editor.action.toggleScreenReaderAccessibilityMode",
         "when": "accessibilityHelpIsShown"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "-workbench.action.focusSideBar"
     },
     {
         "key": "ctrl+v",
@@ -256,7 +262,90 @@
         "command": "editor.action.duplicateSelection"
     },
     {
-        "key": "ctrl+alt+u",
+        "key": "alt+u",
         "command": "workbench.view.extension.claude-sidebar-secondary"
+    },
+    {
+        "key": "ctrl+alt+e",
+        "command": "workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "-workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled"
+    },
+    {
+        "key": "alt+f",
+        "command": "workbench.action.findInFiles",
+        "when": "!isSessionsWindow"
+    },
+    {
+        "key": "ctrl+shift+f",
+        "command": "-workbench.action.findInFiles",
+        "when": "!isSessionsWindow"
+    },
+    {
+        "key": "alt+g",
+        "command": "workbench.view.scm",
+        "when": "workbench.scm.active"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "-workbench.view.scm",
+        "when": "workbench.scm.active"
+    },
+    {
+        "key": "alt+i",
+        "command": "workbench.panel.chat",
+        "when": "workbench.panel.chat.view.copilot.active"
+    },
+    {
+        "key": "ctrl+alt+i",
+        "command": "-workbench.panel.chat",
+        "when": "workbench.panel.chat.view.copilot.active"
+    },
+    {
+        "key": "alt+b",
+        "command": "workbench.action.toggleAuxiliaryBar"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "-workbench.action.toggleAuxiliaryBar"
+    },
+    {
+        "key": "ctrl+alt+v",
+        "command": "-workbench.action.editorDictation.start",
+        "when": "hasSpeechProvider && !editorReadonly && !speechToTextInProgress"
+    },
+    {
+        "key": "alt+p",
+        "command": "-togglePreserveCase",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+p",
+        "command": "-toggleSearchPreserveCase",
+        "when": "searchViewletFocus"
+    },
+    {
+        "key": "alt+p",
+        "command": "-keybindings.editor.toggleSortByPrecedence",
+        "when": "inKeybindings"
+    },
+    {
+        "key": "alt+p",
+        "command": "-workbench.action.chat.previousQuestion",
+        "when": "chatHasQuestionCarousel && inChat && inChatQuestionCarousel"
+    },
+    {
+        "key": "alt+p",
+        "command": "workbench.actions.view.problems",
+        "when": "workbench.panel.markers.view.active"
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "-workbench.actions.view.problems",
+        "when": "workbench.panel.markers.view.active"
     }
 ]
