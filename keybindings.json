@@ -249,5 +249,9 @@
     {
         "key": "ctrl+alt+d",
         "command": "editor.action.duplicateSelection"
+    },
+    {
+        "key": "ctrl+alt+u",
+        "command": "workbench.view.extension.claude-sidebar-secondary"
     }
 ]
