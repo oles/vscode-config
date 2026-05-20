@@ -113,7 +113,7 @@
     {
         "key": "alt+e",
         "command": "workbench.action.focusSideBar",
-        "when": "editorFocus"
+        "when": "editorFocus || terminalFocus"
     },
     {
         "key": "ctrl+e",
