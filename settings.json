@@ -29,5 +29,6 @@
     "editor.renderLineHighlight": "none",
     "editor.matchBrackets": "near",
     "editor.occurrencesHighlight": "off",
-    "debug.javascript.codelens.npmScripts": "never"
+    "debug.javascript.codelens.npmScripts": "never",
+    "terminal.integrated.cursorStyleInactive": "line"
 }
