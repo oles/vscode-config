@@ -266,7 +266,7 @@
         "command": "workbench.view.extension.claude-sidebar-secondary"
     },
     {
-        "key": "ctrl+alt+e",
+        "key": "ctrl+e",
         "command": "workbench.view.explorer",
         "when": "viewContainer.workbench.view.explorer.enabled"
     },
