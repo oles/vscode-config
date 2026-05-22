@@ -32,5 +32,12 @@
     "debug.javascript.codelens.npmScripts": "never",
     "terminal.integrated.cursorStyleInactive": "none",
     "explorer.confirmDragAndDrop": false,
-    "js/ts.updateImportsOnFileMove.enabled": "always"
+    "js/ts.updateImportsOnFileMove.enabled": "always",
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "off"
+    },
+    "terminal.integrated.stickyScroll.enabled": false,
+    "git.openRepositoryInParentFolders": "never"
 }
