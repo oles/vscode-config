@@ -26,3 +26,8 @@
 .sidebar .composite.header .composite-bar-container .composite-bar .monaco-action-bar .actions-container .action-item {
   margin-inline-start: 10px;
 }
+
+/* disables the Editor Language Status icon shake/wiggle */
+#status\.languageStatus .statusbar-item-label .codicon {
+    animation-duration: 0s !important;
+}
