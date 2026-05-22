@@ -361,5 +361,24 @@
     {
         "key": "ctrl+alt+o",
         "command": "-workbench.action.remote.showMenu"
-    }
+    },
+    {
+        "key": "ctrl+s",
+        "command": "git.stageSelectedRanges",
+        "when": "activeViewlet == 'workbench.view.scm' && editorHasSelection",
+    },
+    {
+        "key": "ctrl+s",
+        "command": "workbench.action.files.save",
+        "when": "activeViewlet == 'workbench.view.scm' && !editorHasSelection",
+    },
+    {
+        "key": "ctrl+s",
+        "command": "workbench.action.files.save",
+        "when": "activeViewlet != 'workbench.view.scm'",
+    },
+    {
+        "key": "ctrl+s",
+        "command": "-workbench.action.files.save",
+    }    
 ]
