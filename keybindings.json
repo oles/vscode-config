@@ -400,5 +400,9 @@
         "key": "ctrl+shift+-",
         "command": "-workbench.action.navigateForward",
         "when": "canNavigateForward"
+    },
+    {
+        "key": "ctrl+shift+space",
+        "command": "editor.action.goToTypeDefinition"
     }
 ]
