@@ -41,5 +41,6 @@
     },
     "terminal.integrated.stickyScroll.enabled": false,
     "git.openRepositoryInParentFolders": "never",
-    "diffEditor.ignoreTrimWhitespace": false
+    "diffEditor.ignoreTrimWhitespace": false,
+    "explorer.confirmDelete": false
 }
