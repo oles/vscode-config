@@ -17,7 +17,8 @@
     "terminal.integrated.shellIntegration.decorationsEnabled": "never",
     "terminal.integrated.commandsToSkipShell": [
         "workbench.action.createTerminalEditor",
-        "workbench.action.focusSideBar"
+        "workbench.action.focusSideBar",
+        "workbench.view.explorer"
     ],
     "git.autofetch": true,
     "claudeCode.spinnerVerbs": {
@@ -39,5 +40,6 @@
         "strings": "off"
     },
     "terminal.integrated.stickyScroll.enabled": false,
-    "git.openRepositoryInParentFolders": "never"
+    "git.openRepositoryInParentFolders": "never",
+    "diffEditor.ignoreTrimWhitespace": false
 }
