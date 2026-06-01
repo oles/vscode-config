@@ -18,7 +18,8 @@
     "terminal.integrated.commandsToSkipShell": [
         "workbench.action.createTerminalEditor",
         "workbench.action.focusSideBar",
-        "workbench.view.explorer"
+        "workbench.view.explorer",
+        "workbench.action.files.newUntitledFile"
     ],
     "git.autofetch": true,
     "claudeCode.spinnerVerbs": {
