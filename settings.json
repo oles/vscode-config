@@ -42,5 +42,6 @@
     "terminal.integrated.stickyScroll.enabled": false,
     "git.openRepositoryInParentFolders": "never",
     "diffEditor.ignoreTrimWhitespace": false,
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "terminal.integrated.shellIntegration.quickFixEnabled": false
 }
