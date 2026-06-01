@@ -454,5 +454,15 @@
         "key": "ctrl+shift+end",
         "command": "-cursorBottomSelect",
         "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "git.revertSelectedRanges",
+        "when": "editorTextFocus && !operationInProgress && resourceScheme == 'file'"
+    },
+    {
+        "key": "ctrl+k ctrl+r",
+        "command": "-git.revertSelectedRanges",
+        "when": "editorTextFocus && !operationInProgress && resourceScheme == 'file'"
     }
 ]
