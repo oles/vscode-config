@@ -43,5 +43,6 @@
     "git.openRepositoryInParentFolders": "never",
     "diffEditor.ignoreTrimWhitespace": false,
     "explorer.confirmDelete": false,
-    "terminal.integrated.shellIntegration.quickFixEnabled": false
+    "terminal.integrated.shellIntegration.quickFixEnabled": false,
+    "editor.pasteAs.showPasteSelector": "never"
 }
