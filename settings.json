@@ -45,5 +45,9 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "explorer.confirmDelete": false,
     "terminal.integrated.shellIntegration.quickFixEnabled": false,
-    "editor.pasteAs.showPasteSelector": "never"
+    "editor.pasteAs.showPasteSelector": "never",
+    "debug.gutterMiddleClickAction": "none",
+    "editor.mouseMiddleClickAction": "openLink",
+    "editor.emptySelectionClipboard": false,
+    "editor.selectionClipboard": false
 }
