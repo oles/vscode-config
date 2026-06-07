@@ -50,5 +50,8 @@
     "editor.mouseMiddleClickAction": "openLink",
     "editor.emptySelectionClipboard": false,
     "editor.selectionClipboard": false,
-    "editor.multiCursorModifier": "ctrlCmd"
+    "editor.multiCursorModifier": "ctrlCmd",
+    "workbench.editorAssociations": {
+        "*.svg": "default"
+    }
 }
