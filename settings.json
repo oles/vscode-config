@@ -49,5 +49,6 @@
     "debug.gutterMiddleClickAction": "none",
     "editor.mouseMiddleClickAction": "openLink",
     "editor.emptySelectionClipboard": false,
-    "editor.selectionClipboard": false
+    "editor.selectionClipboard": false,
+    "editor.multiCursorModifier": "ctrlCmd"
 }
