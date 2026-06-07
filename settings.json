@@ -51,6 +51,7 @@
     "editor.emptySelectionClipboard": false,
     "editor.selectionClipboard": false,
     "editor.multiCursorModifier": "ctrlCmd",
+    "explorer.confirmPasteNative": false,
     "workbench.editorAssociations": {
         "*.svg": "default"
     }
