@@ -464,5 +464,13 @@
         "key": "ctrl+k ctrl+r",
         "command": "-git.revertSelectedRanges",
         "when": "editorTextFocus && !operationInProgress && resourceScheme == 'file'"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "workbench.action.zoomReset"
+    },
+    {
+        "key": "ctrl+numpad0",
+        "command": "-workbench.action.zoomReset"
     }
 ]
