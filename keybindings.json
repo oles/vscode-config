@@ -472,5 +472,10 @@
     {
         "key": "ctrl+numpad0",
         "command": "-workbench.action.zoomReset"
+    },
+    {
+        "key": "alt+c",
+        "command": "git.openChange",
+        "when": "config.git.enabled && scmActiveResourceHasChanges && !git.missing && !isInDiffEditor && !isMergeEditor && !isSessionsWindow && resourceScheme == 'file' && gitOpenRepositoryCount != '0'"
     }
 ]
