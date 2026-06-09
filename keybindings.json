@@ -477,5 +477,13 @@
         "key": "alt+c",
         "command": "git.openChange",
         "when": "config.git.enabled && scmActiveResourceHasChanges && !git.missing && !isInDiffEditor && !isMergeEditor && !isSessionsWindow && resourceScheme == 'file' && gitOpenRepositoryCount != '0'"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.gotoLine"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "-workbench.action.gotoLine"
     }
 ]
