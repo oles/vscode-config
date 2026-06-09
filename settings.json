@@ -54,5 +54,7 @@
     "explorer.confirmPasteNative": false,
     "workbench.editorAssociations": {
         "*.svg": "default"
-    }
+    },
+    "workbench.browser.openLocalhostLinks": false,
+    "terminal.integrated.scrollback": 100000
 }
