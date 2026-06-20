@@ -511,5 +511,9 @@
         "key": "ctrl+shift+i",
         "command": "-editor.action.formatDocument",
         "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "editor.action.sortLinesAscending"
     }
 ]
