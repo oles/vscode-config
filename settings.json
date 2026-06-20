@@ -59,5 +59,6 @@
     "terminal.integrated.scrollback": 100000,
     "github.copilot.enable": {
         "*": true
-    }
+    },
+    "git.confirmSync": false
 }
