@@ -60,5 +60,6 @@
     "github.copilot.enable": {
         "*": true
     },
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true
 }
