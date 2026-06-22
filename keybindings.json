@@ -501,5 +501,9 @@
     {
         "key": "ctrl+alt+l",
         "command": "editor.action.sortLinesAscending"
+    },
+    {
+        "key": "insert",
+        "command": "-editor.action.toggleOvertypeInsertMode"
     }
 ]
