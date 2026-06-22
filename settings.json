@@ -62,5 +62,6 @@
     },
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
-    "editor.dragAndDrop": false
+    "editor.dragAndDrop": false,
+    "emmet.showExpandedAbbreviation": "never"
 }
