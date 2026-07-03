@@ -505,5 +505,9 @@
     {
         "key": "insert",
         "command": "-editor.action.toggleOvertypeInsertMode"
+    },
+    {
+        "key": "ctrl+alt+t",
+        "command": "workbench.action.toggleLightDarkThemes"
     }
 ]
