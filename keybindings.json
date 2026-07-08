@@ -365,7 +365,12 @@
     {
         "key": "alt+s",
         "command": "git.stageSelectedRanges",
-        "when": "editorTextFocus && !operationInProgress && resourceScheme == 'file'",
+        "when": "editorTextFocus && !operationInProgress && resourceScheme == 'file' && editorHasSelection"
+    },
+    {
+        "key": "alt+s",
+        "command": "git.stageFile",
+        "when": "!operationInProgress && resourceScheme == 'file' && !editorHasSelection"
     },
     {
         "key": "ctrl+alt+left",
