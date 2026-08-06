@@ -63,5 +63,6 @@
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
     "editor.dragAndDrop": false,
-    "emmet.showExpandedAbbreviation": "never"
+    "emmet.showExpandedAbbreviation": "never",
+    "editor.glyphMargin": false
 }
