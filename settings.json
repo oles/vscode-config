@@ -67,5 +67,6 @@
     "editor.glyphMargin": false,
     "intellij.region": "europe",
     "intellij.dataSharing": "none",
-    "workbench.experimental.modernUI": false
+    "workbench.experimental.modernUI": false,
+    "editor.snippetSuggestions": "none"
 }
