@@ -64,5 +64,7 @@
     "git.enableSmartCommit": true,
     "editor.dragAndDrop": false,
     "emmet.showExpandedAbbreviation": "never",
-    "editor.glyphMargin": false
+    "editor.glyphMargin": false,
+    "intellij.region": "europe",
+    "intellij.dataSharing": "none"
 }
