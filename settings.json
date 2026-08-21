@@ -69,5 +69,7 @@
     "intellij.dataSharing": "none",
     "workbench.experimental.modernUI": false,
     "editor.snippetSuggestions": "none",
-    "chat.titleBar.openInAgentsWindow.enabled": false
+    "chat.titleBar.openInAgentsWindow.enabled": false,
+    "diffEditor.renderGutterMenu": false,
+    "diffEditor.renderIndicators": false
 }
