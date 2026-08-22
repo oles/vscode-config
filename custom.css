@@ -31,3 +31,8 @@
 #status\.languageStatus .statusbar-item-label .codicon {
     animation-duration: 0s !important;
 }
+
+/* replaces the close-all icon on tabs that appears when alt is pressed to always be a normal close icon */
+.tabs-container .tab .tab-actions .monaco-action-bar .action-item .action-label.codicon.codicon-close-all::before {
+    content: '\ecee';
+}
