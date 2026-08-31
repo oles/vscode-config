@@ -262,7 +262,7 @@
         "command": "editor.action.duplicateSelection"
     },
     {
-        "key": "alt+u",
+        "key": "alt+i",
         "command": "workbench.view.extension.claude-sidebar-secondary"
     },
     {
@@ -294,11 +294,6 @@
         "key": "ctrl+shift+g",
         "command": "-workbench.view.scm",
         "when": "workbench.scm.active"
-    },
-    {
-        "key": "alt+i",
-        "command": "workbench.panel.chat",
-        "when": "workbench.panel.chat.view.copilot.active"
     },
     {
         "key": "ctrl+alt+i",
@@ -514,5 +509,35 @@
     {
         "key": "ctrl+alt+t",
         "command": "workbench.action.toggleLightDarkThemes"
+    },
+    {
+        "key": "ctrl+alt+i",
+        "command": "-workbench.action.chat.open",
+        "when": "!chatSetupDisabledInWorkspace && !chatSetupHidden"
+    },
+    {
+        "key": "ctrl+shift+alt+i",
+        "command": "-workbench.action.chat.openagent",
+        "when": "config.chat.agent.enabled && !chatSetupDisabledInWorkspace && !chatSetupHidden"
+    },
+    {
+        "key": "shift+alt+i",
+        "command": "-editor.action.insertCursorAtEndOfEachLineSelected",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+alt+s",
+        "command": "-git.stageSelectedRanges",
+        "when": "editorTextFocus && !operationInProgress && resourceScheme == 'file'"
+    },
+    {
+        "key": "alt+u",
+        "command": "git.unstageSelectedRanges",
+        "when": "editorHasSelection && editorTextFocus && !operationInProgress"
+    },
+    {
+        "key": "ctrl+k ctrl+n",
+        "command": "-git.unstageSelectedRanges",
+        "when": "editorTextFocus && isInDiffEditor && isInDiffRightEditor && !operationInProgress && resourceScheme == 'git'"
     }
 ]
