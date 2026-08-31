@@ -58,7 +58,8 @@
     "workbench.browser.openLocalhostLinks": false,
     "terminal.integrated.scrollback": 100000,
     "github.copilot.enable": {
-        "*": true
+        "*": true,
+        "markdown": true
     },
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
