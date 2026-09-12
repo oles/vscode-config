@@ -59,7 +59,8 @@
     "terminal.integrated.scrollback": 100000,
     "github.copilot.enable": {
         "*": true,
-        "markdown": true
+        "markdown": true,
+        "plaintext": true
     },
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
