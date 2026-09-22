@@ -544,5 +544,11 @@
         "key": "ctrl+i",
         "command": "-workbench.action.terminal.chat.start",
         "when": "chatIsEnabled && terminalChatAgentRegistered && terminalFocusInAny && terminalHasBeenCreated || chatIsEnabled && terminalChatAgentRegistered && terminalFocusInAny && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+backspace",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": { "text": "\u0008" },
+        "when": "terminalFocus"
     }
 ]
