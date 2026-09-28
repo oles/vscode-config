@@ -36,3 +36,16 @@
 .tabs-container .tab .tab-actions .monaco-action-bar .action-item .action-label.codicon.codicon-close-all::before {
     content: '\ecee';
 }
+
+.monaco-workbench .part.editor > .content .editor-group-container {
+    .tabs {
+        background-color: var(--vscode-sideBar-background) !important;
+    }
+
+    > .title {
+        cursor: inherit;
+    }
+}
+
+
+
