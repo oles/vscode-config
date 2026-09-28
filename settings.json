@@ -73,5 +73,7 @@
     "editor.snippetSuggestions": "none",
     "chat.titleBar.openInAgentsWindow.enabled": false,
     "diffEditor.renderGutterMenu": false,
-    "diffEditor.renderIndicators": false
+    "diffEditor.renderIndicators": false,
+    "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "off",
+    "workbench.editor.editorActionsLocation": "hidden"
 }
