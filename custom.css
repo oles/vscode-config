@@ -47,5 +47,6 @@
     }
 }
 
-
-
+.monaco-workbench .part.editor > .content .editor-group-container.active > .title .tabs-container > .tab {
+    background-color: var(--vscode-sideBar-background);
+}
